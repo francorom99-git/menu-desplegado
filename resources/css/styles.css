@@ -1,0 +1,51 @@
+/* Estado inicial oculto */
+#bottom-sheet {
+    transform: translate(-50%, 100%); /* Mover abajo y centrar horizontalmente */
+    background-color: rgba(32, 32, 32, 0.8);
+  }
+  #overlay {
+    opacity: 0;
+  }
+  .menu:hover {
+    background-color:rgb(245 244 239/.10);
+    padding: .5rem;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  #overview {
+    background-image: url(../img/519504883_18099813796573167_2084419568451249885_n.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  #overview-btn {
+    background-color: rgba(32, 32, 32, 0.4);
+  }
+  .overview-btn {
+    background-color: rgba(32, 32, 32, 0.4);
+  }
+  #menu-btn {
+    background-color: rgba(32, 32, 32, 0.4);
+  }
+  
+  #overlay {
+    transition: all .1s ease;
+  }
+img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.menu {
+    padding: .5rem;
+}
+.svg-logo {
+    height: 120px;
+    width: 120px;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(152deg) brightness(103%) contrast(103%);
+}
+header {
+    width: 100%;
+}
